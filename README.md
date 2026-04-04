@@ -175,3 +175,10 @@ Esto significa que puedes:
 Una iniciativa comunitaria para conectar con la naturaleza.
 
 🌳 [Visita el sitio web](https://elencinardelalberche.github.io/El-Parque-de-la-Bellota/)
+
+---
+
+## Colaboradores
+
+- Samuelinchi
+- Rebequilla
