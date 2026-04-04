@@ -1,37 +1,14 @@
 ---
 layout: post
 title: Rutas
-nav-menu: true
 show_tile: true
 description: 🥾 Descubre nuestras rutas
-image: assets/images/pic01.jpg
+image: assets/images/fauna_y_flora.png
+nav-menu: true
+use-initials: true
+accent: color-piedra
+permalink: /rutas
 ---
-
-
-
-<script>
-document.addEventListener('DOMContentLoaded', async () => {
-  const paragraph = document.querySelector('#initial-paragraph')
-  if (!paragraph) return
-
-  const initial = paragraph.innerText.substring(0, 1)
-  if (!initial.match(/[A-Z]/)) return
-
-  const path = `{{ site.baseurl }}/assets/initials/${initial.toLowerCase()}.svg`
-  
-  try {
-    const response = await fetch(path)
-    const svgText = await response.text()
-    
-    paragraph.innerHTML = `
-      <div class="initial-svg">${svgText}</div>
-      ${paragraph.innerHTML.replace(/^\s*(\w)/, '<span class="hidden">$1</span>')}
-    `
-  } catch (error) {
-    console.error('Error loading initial:', error)
-  }
-})
-</script>
 
 ## Rutas del Parque
 

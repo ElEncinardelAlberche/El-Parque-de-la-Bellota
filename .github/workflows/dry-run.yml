@@ -11,4 +11,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: helaili/jekyll-action@2.0.5
-        build_only: true
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          build_only: true
